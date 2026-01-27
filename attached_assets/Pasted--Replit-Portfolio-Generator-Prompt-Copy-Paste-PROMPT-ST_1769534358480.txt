@@ -1,0 +1,152 @@
+⭐ Replit Portfolio Generator Prompt (Copy–Paste)
+
+PROMPT START
+
+Build a fully responsive personal portfolio website using HTML + CSS + JavaScript (or React + Tailwind if supported).
+The portfolio must contain the following sections, each with clean UI and placeholders I can later replace with my own data:
+
+🏠 1. Header + Navigation
+
+Name: Palak Jain
+
+Title: AI/ML Enthusiast | Software Developer
+
+Navigation Links: Home, About, Skills, Projects, Certifications, Achievements, Resume, Contact
+
+🙋‍♀️ 2. Hero Section
+
+A modern hero with animated text
+
+Space for a professional photo
+
+Buttons: “Download Resume”, “Contact Me”
+
+📌 3. About Me
+
+Include placeholders for:
+
+Who I am
+
+Interests (AI/ML, Coding, Event Management, Problem Solving)
+
+College info: VIT Bhopal – Integrated M.Tech AI
+
+Personality traits (e.g., hardworking, adaptable, self-motivated)
+
+🛠 4. Skills Section
+
+Make this section dynamic with icons.
+
+Technical Skills
+
+Python, Java, C++
+
+Machine Learning, Deep Learning
+
+DBMS, SQL
+
+DSA
+
+Django
+
+React
+
+Git/GitHub
+
+Cloud Computing (NPTEL Course)
+
+Soft Skills
+
+Teamwork
+
+Event Management
+
+Problem Solving
+
+Creativity
+
+Leadership
+
+💼 5. Projects Section
+
+Add cards with placeholders for:
+
+Project Name
+
+Short description
+
+Tech stack tags
+
+GitHub link
+
+Optional demo link
+
+Provide space for at least 6 projects.
+
+📜 6. Certifications Section
+
+Create a grid where I can paste my certificates.
+
+Add placeholders like:
+
+“NPTEL – Cloud Computing”
+
+“AI/ML Course – [Add here]”
+
+“Data Science Workshop – [Add here]”
+
+“Hackathon Participation – [Add here]”
+
+Let me easily add more certification cards.
+
+🏆 7. Achievements Section
+
+Placeholders:
+
+Hackathons
+
+College events
+
+Awards
+
+Research paper: “Impact of Artificial Intelligence in Everyday Life”
+
+📄 8. Resume Section
+
+Add a button to upload or link my resume PDF.
+
+📬 9. Contact Section
+
+Contact form (Name, Email, Message)
+
+Social icons: GitHub, LinkedIn, Email
+
+Email placeholder: your email here
+
+✨ 10. Requirements
+
+Clean, modern UI
+
+Fully responsive
+
+Smooth scroll
+
+Hover animations
+
+Dark + Light mode toggle
+
+Separate CSS/JS files
+
+Easy to edit text fields
+
+Use comments in code so I can modify parts easily
+
+Generate all required files:
+
+index.html
+
+style.css
+
+script.js
+
+assets folder for images/icons
