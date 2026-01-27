@@ -1,9 +1,19 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Mail } from "lucide-react";
-import { TypeAnimation } from "react-type-animation";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
+  const [textIndex, setTextIndex] = useState(0);
+  const roles = ["Software Developer", "AI/ML Enthusiast", "Problem Solver"];
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTextIndex((prev) => (prev + 1) % roles.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Elements */}
@@ -28,22 +38,11 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold font-heading mb-4 leading-tight">
             Hi, I'm <span className="text-gradient">Palak Jain</span>
           </h1>
-          <div className="text-xl md:text-2xl text-muted-foreground font-mono mb-8 h-[60px]">
+          <div className="text-xl md:text-2xl text-muted-foreground font-mono mb-8 h-[60px] flex items-center">
             I am a{" "}
-            <TypeAnimation
-              sequence={[
-                "Software Developer",
-                2000,
-                "AI/ML Enthusiast",
-                2000,
-                "Problem Solver",
-                2000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-              className="text-foreground font-bold"
-            />
+            <span className="text-foreground font-bold ml-2">
+              {roles[textIndex]}
+            </span>
           </div>
           
           <div className="flex flex-wrap gap-4">
