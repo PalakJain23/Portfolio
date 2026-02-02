@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Moon, Sun, Github, Linkedin, Mail } from "lucide-react";
+import { Menu, X, Moon, Sun, Github, Linkedin, Mail, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import { motion, AnimatePresence } from "framer-motion";
+import { useAuth } from "@/contexts/AuthContext";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
+  const { user } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,6 +52,15 @@ export default function Navigation() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
             </a>
           ))}
+          {user && (
+            <a
+              href="/admin"
+              className="text-sm font-medium hover:text-primary transition-colors relative group"
+            >
+              Admin
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
+            </a>
+          )}
           <Button
             variant="ghost"
             size="icon"
@@ -96,6 +107,15 @@ export default function Navigation() {
                   {link.name}
                 </a>
               ))}
+              {user && (
+                <a
+                  href="/admin"
+                  onClick={() => setIsOpen(false)}
+                  className="text-lg font-medium hover:text-primary transition-colors"
+                >
+                  Admin
+                </a>
+              )}
             </div>
           </motion.div>
         )}

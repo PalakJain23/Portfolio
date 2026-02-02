@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palak Jain - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.2em;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9em;
+        }
+        
+        .contact a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #3b82f6;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+        
+        .item {
+            margin-bottom: 15px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #1f2937;
+        }
+        
+        .item-subtitle {
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .item-details {
+            margin-left: 20px;
+        }
+        
+        .item-details li {
+            margin-bottom: 5px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 5px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 5px;
+        }
+        
+        .project-tech {
+            color: #6b7280;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        
+        .achievement {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f0f9ff;
+            border-radius: 5px;
+            border-left: 3px solid #a855f7;
+        }
+        
+        .achievement-title {
+            font-weight: bold;
+            color: #1f2937;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 10px;
+                font-size: 12px;
+            }
+            
+            .name {
+                font-size: 2em;
+            }
+            
+            .section {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Palak Jain</div>
+        <div class="title">AI/ML Enthusiast & Software Developer</div>
+        <div class="contact">
+            <span>📧 jainpalak1617@gmail.com</span>
+            <span>📱 +91 1234567890</span>
+            <span>🔗 <a href="https://github.com/PalakJain23">github.com/PalakJain23</a></span>
+            <span>💼 <a href="https://www.linkedin.com/in/palak-jain-3706b0311/">linkedin.com/in/palak-jain-3706b0311</a></span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="item">
+            <div class="item-title">VIT Bhopal University</div>
+            <div class="item-subtitle">Integrated M.Tech in Artificial Intelligence | 2023 - 2028</div>
+            <div class="item-details">
+                <ul>
+                    <li>GPA: 8.5/10</li>
+                    <li>Relevant Coursework: Machine Learning, Deep Learning, Data Structures, Algorithms, Web Development</li>
+                    <li>Active member of AI Club and Technical Events Committee</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div>
+                <div class="skill-category">Programming Languages</div>
+                <div>Python, Java, C++, JavaScript, TypeScript</div>
+            </div>
+            <div>
+                <div class="skill-category">AI/ML</div>
+                <div>TensorFlow, PyTorch, Scikit-learn, OpenCV, NLP, Computer Vision</div>
+            </div>
+            <div>
+                <div class="skill-category">Web Development</div>
+                <div>React, Node.js, Express, HTML/CSS, Tailwind CSS</div>
+            </div>
+            <div>
+                <div class="skill-category">Databases & Tools</div>
+                <div>SQL, MongoDB, PostgreSQL, Git, Docker, AWS, Linux</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+        <div class="project">
+            <div class="project-title">AI Image Captioning</div>
+            <div class="project-tech">Python, TensorFlow, Deep Learning</div>
+            <div class="item-details">
+                <ul>
+                    <li>Developed CNN-LSTM architecture for generating descriptive captions for images</li>
+                    <li>Achieved BLEU score of 0.68 on Flickr8k dataset</li>
+                    <li>Implemented attention mechanism for improved caption quality</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-title">Smart Portfolio Generator</div>
+            <div class="project-tech">React, Node.js, Tailwind CSS</div>
+            <div class="item-details">
+                <ul>
+                    <li>Built a web application for creating professional portfolios instantly</li>
+                    <li>Implemented dynamic content management with CRUD operations</li>
+                    <li>Added authentication system for secure content editing</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-title">Sentiment Analysis Tool</div>
+            <div class="project-tech">Python, NLTK, Scikit-learn</div>
+            <div class="item-details">
+                <ul>
+                    <li>Created NLP-based tool for analyzing customer feedback sentiment</li>
+                    <li>Achieved 92% accuracy on custom dataset</li>
+                    <li>Deployed as REST API with real-time processing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <div class="item-details">
+            <ul>
+                <li><strong>Deep Learning Specialization</strong> - Coursera (2023)</li>
+                <li><strong>Cloud Computing</strong> - NPTEL (2024)</li>
+                <li><strong>Python for Data Science</strong> - IBM (2023)</li>
+                <li><strong>Full Stack Web Development</strong> - Udemy (2022)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Achievements</div>
+        <div class="achievement">
+            <div class="achievement-title">🏆 Hackathon Winner</div>
+            <div>1st Place in Smart India Hackathon internal round</div>
+        </div>
+        <div class="achievement">
+            <div class="achievement-title">📄 Research Paper</div>
+            <div>Published "Impact of Artificial Intelligence in Everyday Life"</div>
+        </div>
+        <div class="achievement">
+            <div class="achievement-title">🎯 Event Organizer</div>
+            <div>Lead organizer for college technical fest "Technova"</div>
+        </div>
+        <div class="achievement">
+            <div class="achievement-title">📚 Academic Excellence</div>
+            <div>Consistent top performer in AI/ML courses</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Contact</div>
+        <div style="text-align: center;">
+            <p>📧 <a href="mailto:palak.jain@example.com">palak.jain@example.com</a></p>
+            <p>📱 +91 1234567890</p>
+            <p>🔗 <a href="https://github.com/palakjain">github.com/palakjain</a></p>
+            <p>💼 <a href="https://linkedin.com/in/palakjain">linkedin.com/in/palakjain</a></p>
+            <p>🌐 Portfolio: <a href="https://palak.dev">palak.dev</a></p>
+        </div>
+    </div>
+</body>
+</html>

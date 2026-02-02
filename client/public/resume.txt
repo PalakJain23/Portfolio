@@ -1,0 +1,61 @@
+Palak Jain
+AI/ML Enthusiast & Software Developer
+
+CONTACT INFORMATION
+Email: jainpalak1617@gmail.com
+Phone: +91 1234567890
+GitHub: https://github.com/PalakJain23
+LinkedIn: https://www.linkedin.com/in/palak-jain-3706b0311/
+Portfolio: palak.dev
+
+EDUCATION
+VIT Bhopal University
+Integrated M.Tech in Artificial Intelligence
+2023 - 2028
+• GPA: 8.5/10
+• Relevant Coursework: Machine Learning, Deep Learning, Data Structures, Algorithms, Web Development
+• Active member of AI Club and Technical Events Committee
+
+TECHNICAL SKILLS
+Programming Languages: Python, Java, C++, JavaScript, TypeScript
+AI/ML: TensorFlow, PyTorch, Scikit-learn, OpenCV, NLP, Computer Vision
+Web Development: React, Node.js, Express, HTML/CSS, Tailwind CSS
+Databases: SQL, MongoDB, PostgreSQL
+Tools: Git, Docker, AWS, Linux
+
+PROJECTS
+AI Image Captioning
+Python, TensorFlow, Deep Learning
+• Developed CNN-LSTM architecture for generating descriptive captions for images
+• Achieved BLEU score of 0.68 on Flickr8k dataset
+• Implemented attention mechanism for improved caption quality
+
+Smart Portfolio Generator
+React, Node.js, Tailwind CSS
+• Built a web application for creating professional portfolios instantly
+• Implemented dynamic content management with CRUD operations
+• Added authentication system for secure content editing
+
+Sentiment Analysis Tool
+Python, NLTK, Scikit-learn
+• Created NLP-based tool for analyzing customer feedback sentiment
+• Achieved 92% accuracy on custom dataset
+• Deployed as REST API with real-time processing
+
+CERTIFICATIONS
+Deep Learning Specialization - Coursera (2023)
+Cloud Computing - NPTEL (2024)
+Python for Data Science - IBM (2023)
+Full Stack Web Development - Udemy (2022)
+
+ACHIEVEMENTS
+🏆 Hackathon Winner - 1st Place in Smart India Hackathon internal round
+📄 Research Paper - Published "Impact of Artificial Intelligence in Everyday Life"
+🎯 Event Organizer - Lead organizer for college technical fest "Technova"
+📚 Academic Excellence - Consistent top performer in AI/ML courses
+
+INTERESTS
+Machine Learning, Web Development, Event Management, Creative Writing
+
+REFERENCES
+Available upon request

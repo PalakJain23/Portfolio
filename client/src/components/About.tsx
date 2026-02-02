@@ -76,7 +76,7 @@ export default function About() {
                 <h4 className="font-bold text-lg mb-2">Education</h4>
                 <div className="flex justify-between items-start mb-2">
                   <span className="font-medium">VIT Bhopal University</span>
-                  <span className="text-sm text-muted-foreground bg-secondary px-2 py-1 rounded">2021 - 2026</span>
+                  <span className="text-sm text-muted-foreground bg-secondary px-2 py-1 rounded">2023 - 2028</span>
                 </div>
                 <p className="text-sm text-muted-foreground">Integrated M.Tech in Artificial Intelligence</p>
               </CardContent>

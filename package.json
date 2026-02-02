@@ -1,11 +1,11 @@
 {
-  "name": "rest-express",
+  "name": "palak-portfolio",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
     "dev:client": "vite dev --port 5000",
-    "dev": "NODE_ENV=development tsx server/index.ts",
+    "dev": "set NODE_ENV=development&& npx tsx server/index.ts",
     "build": "tsx script/build.ts",
     "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",

@@ -70,33 +70,33 @@ export default function Contact() {
             </p>
             
             <div className="space-y-6">
-              <a href="mailto:palak.jain@example.com" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
+              <a href="mailto:jainpalak1617@gmail.com" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">palak.jain@example.com</p>
+                  <p className="font-medium">jainpalak1617@gmail.com</p>
                 </div>
               </a>
 
-              <a href="#" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
+              <a href="https://www.linkedin.com/in/palak-jain-3706b0311/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">LinkedIn</p>
-                  <p className="font-medium">linkedin.com/in/palakjain</p>
+                  <p className="font-medium">linkedin.com/in/palak-jain-3706b0311</p>
                 </div>
               </a>
 
-              <a href="#" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
+              <a href="https://github.com/PalakJain23" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary transition-colors group">
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                   <Github className="w-5 h-5" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">GitHub</p>
-                  <p className="font-medium">github.com/palakjain</p>
+                  <p className="font-medium">github.com/PalakJain23</p>
                 </div>
               </a>
             </div>
